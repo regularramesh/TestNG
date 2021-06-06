@@ -2,32 +2,31 @@ package Automation;
 
 import org.testng.annotations.Test;
 
-public class Enable_Annotation {
+public class DefendsOn_Annotation {
 	
-	//In this case the Result Hide which one is give enabled=false
-	//default enabled value =true
+	//In this case used to Run the Program Defeding on our methods
 	
-		@Test(enabled=false)
+		@Test(dependsOnMethods = "startCar")
 		public void driveCar() {
 			System.out.println("Deive the car");
 		}
 		
-		@Test()
+		@Test(dependsOnMethods = "driveCar")
 		public void runningCar() {
 			System.out.println("The Car is Running");
 		}
 		
 		@Test
-		public void stratCar() {
+		public void startCar() {
 			System.out.println("To Strat the Car");
 		}
 		
-		@Test
+		@Test(dependsOnMethods = "stopCar")
 		public void parkingCar() {
 			System.out.println("Parking the Car");
 		}
 		
-		@Test
+		@Test(dependsOnMethods = "runningCar")
 		public void stopCar() {
 			System.out.println("To Stop the Car");
 		}
