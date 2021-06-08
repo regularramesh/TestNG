@@ -2,16 +2,36 @@
 <testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-07T00:07:12 IST" name="Default suite" finished-at="2021-06-07T00:07:12 IST" duration-ms="85">
+  <suite started-at="2021-06-08T22:06:49 IST" name="Default suite" finished-at="2021-06-08T22:06:49 IST" duration-ms="66">
     <groups>
     </groups>
-    <test started-at="2021-06-07T00:07:12 IST" name="Default test" finished-at="2021-06-07T00:07:12 IST" duration-ms="85">
-      <class name="Automation.DefendsOn_Annotation">
-        <test-method signature="startCar()[pri:0, instance:Automation.DefendsOn_Annotation@7671cb68]" started-at="2021-06-07T00:07:12 IST" name="startCar" finished-at="2021-06-07T00:07:12 IST" duration-ms="15" status="PASS">
+    <test started-at="2021-06-08T22:06:49 IST" name="Default test" finished-at="2021-06-08T22:06:49 IST" duration-ms="66">
+      <class name="Automation.BeforeAfter">
+        <test-method is-config="true" signature="second()[pri:0, instance:Automation.BeforeAfter@50b5ac82]" started-at="2021-06-08T22:06:49 IST" name="second" finished-at="2021-06-08T22:06:49 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startCar -->
-      </class> <!-- Automation.DefendsOn_Annotation -->
+        </test-method> <!-- second -->
+        <test-method is-config="true" signature="fivth()[pri:0, instance:Automation.BeforeAfter@50b5ac82]" started-at="2021-06-08T22:06:49 IST" name="fivth" finished-at="2021-06-08T22:06:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fivth -->
+        <test-method is-config="true" signature="forth()[pri:0, instance:Automation.BeforeAfter@50b5ac82]" started-at="2021-06-08T22:06:49 IST" name="forth" finished-at="2021-06-08T22:06:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forth -->
+        <test-method signature="sixth()[pri:0, instance:Automation.BeforeAfter@50b5ac82]" started-at="2021-06-08T22:06:49 IST" name="sixth" finished-at="2021-06-08T22:06:49 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sixth -->
+        <test-method is-config="true" signature="sixth()[pri:0, instance:Automation.BeforeAfter@50b5ac82]" started-at="2021-06-08T22:06:49 IST" name="sixth" finished-at="2021-06-08T22:06:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sixth -->
+        <test-method is-config="true" signature="first()[pri:0, instance:Automation.BeforeAfter@50b5ac82]" started-at="2021-06-08T22:06:49 IST" name="first" finished-at="2021-06-08T22:06:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- Automation.BeforeAfter -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
